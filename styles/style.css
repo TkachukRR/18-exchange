@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.converter {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid rgb(72, 141, 135);
+    background-color: rgb(206, 250, 246);
+    background-size:contain;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.converter__title {
+    margin: 16px 0;
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 900;;
+    text-shadow:    1px 0 1px #fff, 
+                    0 1px 1px #fff, 
+                    -1px 0 1px #fff, 
+                    0 -1px 1px #fff;
+}
+
+
+.converter__courses {
+    justify-content:space-around;
+}
+
+.converter__courses h2 {    
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    padding: 5px;
+
+    vertical-align:middle;
+
+    font-size: 16px;
+
+    background-size: cover;
+    text-shadow:    1px 0 1px #fff, 
+                    0 1px 1px #fff, 
+                    -1px 0 1px #fff, 
+                    0 -1px 1px #fff;
+}
+
+.converter__courses p {
+    font-size: 12px;
+    font-weight: 700;
+    text-shadow:    1px 0 1px #fff, 
+                    0 1px 1px #fff, 
+                    -1px 0 1px #fff, 
+                    0 -1px 1px #fff;
+}
+
+
+.converter__courses_value {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4px;
+}
+
+.converter__courses_converter {
+    display:flex;
+    justify-content: space-around;
+}
+
+.converter__courses_from {
+
+}
+
+.converter__courses_from input, .converter__courses_to input{
+    width: 75px;
+}
+
+.flag-bg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.converter__courses_from__input, .converter__courses_to__input{
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+select {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    margin: 0 2px;
+}
