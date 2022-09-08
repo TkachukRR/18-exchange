@@ -1,6 +1,6 @@
 // const apiUrl = "https://api.monobank.ua/bank/currency"
 // const apiUr2 = "https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5"
-const BASE_URL = "http://www.floatrates.com";
+const BASE_URL = "https://www.floatrates.com";
 
 //enter the currency code of the main country
 const BASIC_COUNTRY = `UAH`; 
