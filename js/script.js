@@ -60,7 +60,7 @@ async function fetchCourses() {
     );
     const data = await response.json();
     obj[userCountry] = {
-      flagUrl: `./../images/${userCountry.toLowerCase().slice(0, 2) + ".svg"}`,
+      flagUrl: `./images/${userCountry.toLowerCase().slice(0, 2) + ".svg"}`,
       //   `https://countryflagsapi.com/svg/${userCountry.toLowerCase().slice(0, 2)}`,
       ...data,
     };
